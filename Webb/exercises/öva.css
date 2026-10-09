@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(192, 192, 192);
+}
+
+.container {
+    display:grid;
+}
+
+.jacket {
+    width: 300px;
+}
+
+.jacket-container {
+    position: relative;
+    display: inline-block;
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color:white;
+}
